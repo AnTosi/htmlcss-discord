@@ -19,9 +19,6 @@
     width: 73%;
     position: relative;
 }
-.sopra.jumbo {
-    z-index: 2;
-}
 
 section.sopra>.vertical_container {
     height: 550px;
@@ -174,7 +171,6 @@ section.one div.text_area {
 
 main section {
     padding: 100px 0px;
-    z-index: 2;
 }
 
 section p {
@@ -185,26 +181,27 @@ section p {
 
 /* wave */
 .wave {
-    height: 200px;
+    height: 75px;
     background-image: url(../img/wave.svg);
+    filter: opacity(0.03);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.03);
+}
+
+div.wave.gtow {
+    transform: rotate(180deg);
 }
 /* /wave */
-
-div.prova {
-    height: 200px;
-    background-color: #F7F7F7;
-}
 
 /* section2 */
 
 section.two img {
-    position: absolute;
-    right:0;
+   margin-right: 0;
+   margin-left: auto;
 }
 
 section.two {
     background-color: #F7F7F7;
 }
+
+
