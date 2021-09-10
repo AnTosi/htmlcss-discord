@@ -75,12 +75,14 @@ header>div.accedi>button {
 }
 /* /siteheader */
 
-section.jumbotron {
+section.sopra_jumbo {
     background-image: url(../img/jumbo.png);
-    height: 502px;
+    height: 550px;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} 
+
+  
 button {
     border-radius: 20px;
     padding: 10px 15px;
