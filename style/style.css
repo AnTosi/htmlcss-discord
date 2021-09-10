@@ -10,6 +10,10 @@
     clear: both;
 }
 
+.vertical_container {
+    margin: auto;
+    width: 73%;
+}
 /* siteheader */
 header {
     height: 70px;
