@@ -19,6 +19,9 @@
     width: 73%;
     position: relative;
 }
+.sopra.jumbo {
+    z-index: 2;
+}
 
 section.sopra>.vertical_container {
     height: 550px;
@@ -147,10 +150,13 @@ div.pulsanti>button.browser {
 
 /* mainsite */
 main {
-    color: black;
+    color: black;    
 }
+
+
 main div.img_container {
     width: 65%;
+
 }
 
 div.clearfix>div {
@@ -165,6 +171,7 @@ div.text_area {
 
 main section {
     padding: 100px 0px;
+    z-index: 2;
 }
 
 section p {
@@ -172,3 +179,18 @@ section p {
     font-size: 1.2rem;
 }
 /* /mainsite */
+
+/* wave */
+.wave {
+    height: 200px;
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.03);
+}
+/* /wave */
+
+div.prova {
+    height: 200px;
+    background-color: #F7F7F7;
+}
