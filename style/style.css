@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family:'Roboto', sans-serif;
+}
+
 .clearfix::after {
     display: table;
     content: "";
@@ -13,6 +17,9 @@
 .vertical_container {
     margin: auto;
     width: 73%;
+    text-align: center;
+    height: 550px;
+    position: relative;
 }
 
 /* siteheader */
@@ -85,7 +92,6 @@ section.sopra {
     background-size: cover;
     background-repeat: no-repeat;
 } 
-
   
 button {
     border-radius: 20px;
@@ -94,9 +100,44 @@ button {
 }
 
 div.sopra {
-    font-family:'Roboto', sans-serif;
+    text-align: center;
+    width: 56%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
 }
 
 div.sopra h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+div.sopra p {
+    line-height: 2.3rem;
+    margin-bottom: 1.5rem;
+}
+
+div.pulsanti>button {
+    height: 3rem;
+    line-height: 3rem;
+    vertical-align: middle;
     text-align: center;
+    padding: 0 1.5rem;
+    border-radius: 2rem;
+    margin: 0 10px;
+    font-weight: 400;
+}
+div.pulsanti>button.download {
+    background-color: #fbfbfb;
+}
+
+button.download .fas.fa-long-arrow-alt-down {
+    margin-right: 5px;
+}
+
+div.pulsanti>button.browser {
+    background-color: black;
+    color: #fbfbfb;
 }
