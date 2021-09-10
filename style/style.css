@@ -166,7 +166,10 @@ div.clearfix>div {
 div.text_area {
     width: 35%;
     padding-top: 30px;
-    padding-left: 50px;
+}
+
+section.one div.text_area {
+    padding-left: 35px;
 }
 
 main section {
@@ -192,5 +195,16 @@ section p {
 
 div.prova {
     height: 200px;
+    background-color: #F7F7F7;
+}
+
+/* section2 */
+
+section.two img {
+    position: absolute;
+    right:0;
+}
+
+section.two {
     background-color: #F7F7F7;
 }
