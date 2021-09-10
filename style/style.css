@@ -101,7 +101,7 @@ button {
 
 div.sopra {
     text-align: center;
-    width: 56%;
+    width: 64%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -109,19 +109,19 @@ div.sopra {
     font-size: 1.2rem;
 }
 
-div.sopra h2 {
+h2 {
     font-size: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: 700;
 }
 div.sopra p {
-    line-height: 2.3rem;
-    margin-bottom: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.2rem;
 }
 
 div.pulsanti>button {
-    height: 3rem;
-    line-height: 3rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
     vertical-align: middle;
     text-align: center;
     padding: 0 1.5rem;
@@ -141,3 +141,28 @@ div.pulsanti>button.browser {
     background-color: black;
     color: #fbfbfb;
 }
+
+/* mainsite */
+main {
+    color: black;
+}
+main div.img_container {
+    width: 65%;
+    text-align: center;
+}
+
+div.clearfix>div {
+    float: left;
+}
+
+div.text_area {
+    width: 35%;
+    padding-right: 150px;
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+main>div {
+    padding: 100px;
+}
+/* /mainsite */
