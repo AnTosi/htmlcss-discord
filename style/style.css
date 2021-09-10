@@ -204,4 +204,10 @@ section.two {
     background-color: #F7F7F7;
 }
 
+/* /section2 */
 
+/* section3 */
+section.three .text_area {
+    padding-left: 3%;
+}
+/* section3 */
