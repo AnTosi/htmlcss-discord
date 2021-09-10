@@ -113,7 +113,7 @@ div.sopra {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
     font-weight: 700;
 }
@@ -151,7 +151,6 @@ main {
 }
 main div.img_container {
     width: 65%;
-    text-align: center;
 }
 
 div.clearfix>div {
@@ -161,6 +160,15 @@ div.clearfix>div {
 div.text_area {
     width: 35%;
     padding-top: 30px;
+    padding-left: 50px;
 }
 
+main section {
+    padding: 100px 0px;
+}
+
+section p {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
 /* /mainsite */
