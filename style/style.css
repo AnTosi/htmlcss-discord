@@ -14,6 +14,7 @@
     margin: auto;
     width: 73%;
 }
+
 /* siteheader */
 header {
     height: 70px;
@@ -59,7 +60,7 @@ header>nav li {
     height: 70px;
     margin-left: 15px;
     margin-right: 15px;
-    color: whitesmoke;
+    color: #fbfbfb;
 }
 
 header>div.pulsante {
@@ -71,11 +72,14 @@ header>div.accedi>button {
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
-    background-color: whitesmoke;
+    background-color: #fbfbfb;
 }
 /* /siteheader */
+section.sopra {
+    color: #fbfbfb;
+}
 
-section.sopra_jumbo {
+section.sopra {
     background-image: url(../img/jumbo.png);
     height: 550px;
     background-size: cover;
@@ -89,17 +93,10 @@ button {
     border-style: none;
 }
 
-/* debug */
-.debug header>div.logo {
-    background-color: aliceblue;
+div.sopra {
+    font-family:'Roboto', sans-serif;
 }
 
-.debug header>nav {
-    background-color: bisque;
+div.sopra h2 {
+    text-align: center;
 }
-
-.debug header>div.accedi {
-    background-color: coral;
-}
-
-/* /debug */
