@@ -42,8 +42,8 @@ header>div.logo {
 header>div.logo img {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0;
+    transform: translate(0, -50%);
 }
 header>nav ul {
     line-height: 70px;
@@ -65,15 +65,22 @@ header>nav li {
 header>div.pulsante {
     position:relative;
 }
+
 header>div.accedi>button {
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    transform: translate(0, -50%);
     background-color: whitesmoke;
 }
 /* /siteheader */
 
+section.jumbotron {
+    background-image: url(../img/jumbo.png);
+    height: 502px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 button {
     border-radius: 20px;
     padding: 10px 15px;
