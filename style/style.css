@@ -117,7 +117,7 @@ div.sopra {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.9rem;
     margin-bottom: 2rem;
     font-weight: 700;
 }
@@ -183,8 +183,7 @@ section p {
 }
 
 section.four div.text_block {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 30px 67px;
 }
 /* /mainsite */
 
