@@ -61,8 +61,11 @@ header>nav ul {
     height: 70px;
 }
 
-header>nav li {
+li {
     list-style: none;
+}
+
+header>nav li {
     display: inline-block;
     line-height: 70px;
     vertical-align: middle;
@@ -72,7 +75,7 @@ header>nav li {
     margin-right: 15px;
 }
 
-header>nav li a {
+a {
     text-decoration: none;
     color: #fbfbfb;
 }
@@ -267,8 +270,8 @@ footer select#language {
     color: #FFFFFF;
 }
 
-footer div.vertical_container {
-    margin-top: 20px;
+footer {
+    padding-top: 30px;
 }
 
 footer div.largo {
@@ -279,7 +282,32 @@ footer div.stretto {
     width: 16.5%;
 }
 
+footer .blue_text {
+    color: #7289DA;
+}
 
+footer h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 95px;
+    margin-bottom: 15px;
+}
+
+footer .social {
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+footer .social a {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+div.stretto {
+    font-weight: 400;
+}
 /* debug */
 .debug .largo {
     background-color: rgb(79, 172, 172);
