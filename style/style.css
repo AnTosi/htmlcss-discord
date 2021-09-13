@@ -343,6 +343,10 @@ div.logo img:hover {
     cursor: pointer;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 button.whiteback:hover {
     color: #7289DA;
 }
