@@ -84,7 +84,7 @@ header>div.pulsante {
     position:relative;
 }
 
-header>div.accedi button {
+header>div.accedi .button {
     position: absolute;
     top: 50%;
     right: 0;
@@ -123,18 +123,16 @@ div.sopra p {
     margin-bottom: 1.2rem;
 }
 
-div.pulsanti button {
+div.pulsanti .button {
     height: 2.5rem;
     line-height: 2.5rem;
-    vertical-align: middle;
-    text-align: center;
-    padding: 0 1.5rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 2rem;
     margin: 0 10px;
-    font-weight: 400;
+    font-size: 1rem;
 }
 
-button.download_mac .fas.fa-long-arrow-alt-down {
+.button .fas.fa-long-arrow-alt-down {
     margin-right: 5px;
 }
 
@@ -142,7 +140,7 @@ button.download_mac .fas.fa-long-arrow-alt-down {
 
 /* mainsite */
 main {
-    color: black;    
+    color:  #23272A;    
 }
 
 
@@ -247,6 +245,7 @@ section.four .pulsanti{
 footer {
     background-color: #23272A;
 }
+
 footer select#language {
     background-color: #ffffff00;
     border-style: none;
@@ -266,10 +265,11 @@ footer div.stretto {
 }
 
 footer .blue_text {
-    color: #7289DA;
+color: #7289DA;
 }
 
-footer ul>span {
+footer ul.blue_text {
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -292,8 +292,13 @@ footer .social a {
     margin-left: 5px;
 }
 
-footer div.stretto li {
+footer div.stretto {
     font-size: 1rem;
+
+    font-weight: 500;
+}
+footer div.stretto ul>li {
+    font-weight: 400;
     margin-top: 0.8rem;
 }
 
@@ -306,7 +311,7 @@ footer div.fondo {
     margin-bottom: 60px;
 }
 
-footer div.fondo button {
+footer div.fondo .button {
     position: absolute;
     right: 0;
     top: 25px;
@@ -316,27 +321,28 @@ footer div.fondo button {
 
 
 /* buttonremade */
-button.browser {
+.button.browser {
     background-color: #23272A;
     color: #fbfbfb;
 }
 
-button.blueback {
+.button.blueback {
     background-color: #8EA1E1;
     color: #FFFFFF;
 }
 
-button {
+.button {
     border-radius: 20px;
     padding: 10px 15px;
     border-style: none;
 }
 
-button.whiteback {
+.button.whiteback {
     background-color: #FFFFFF;
+    color: #23272A;
 }
 
-button.whiteback a {
+.button.whiteback a {
     color: #23272A;
 }
 /* /buttonremade */
@@ -347,20 +353,20 @@ div.logo img:hover {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
 
-button.blackback:hover {
+.button.blackback:hover {
     background-color: #36393F;
 }
 
-button.whiteback:hover {
+.button.whiteback:hover {
     color: #7289DA;
 }
 
-button.blueback:hover {
+.button.blueback:hover {
     background-color: #7983F5;
 }
 
