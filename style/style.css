@@ -182,9 +182,7 @@ section p {
     font-size: 1.2rem;
 }
 
-section.four div.text_block {
-    margin: 30px 67px;
-}
+
 /* /mainsite */
 
 /* wave */
@@ -223,5 +221,27 @@ section.three .text_area {
 /* section4 */
 section.four {
     text-align: center;
+}
+
+section.four div.text_block {
+    margin: 30px 67px;
+}
+
+section.four div.sparkle_text {
+    position: relative;
+    margin-top: 20px;
+}
+
+section.four div.sparkle_text>h3.starred {
+    position: absolute;
+    padding: 5px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+h3.starred {
+    font-weight: 700;
+    font-size: 1.7rem;
 }
 /* /section4 */
