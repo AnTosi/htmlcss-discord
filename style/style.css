@@ -89,7 +89,6 @@ header>div.accedi>button {
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
-    background-color: #fbfbfb;
 }
 /* /siteheader */
 section.sopra {
@@ -103,19 +102,7 @@ section.sopra {
     background-repeat: no-repeat;
 } 
   
-button {
-    border-radius: 20px;
-    padding: 10px 15px;
-    border-style: none;
-}
 
-button.whiteback {
-    background-color: #FFFFFF;
-}
-
-button.whiteback a {
-    color: #23272A;
-}
 div.sopra {
     text-align: center;
     width: 65%;
@@ -146,18 +133,12 @@ div.pulsanti>button {
     margin: 0 10px;
     font-weight: 400;
 }
-div.pulsanti>button.download_mac {
-    background-color: #fbfbfb;
-}
 
 button.download_mac .fas.fa-long-arrow-alt-down {
     margin-right: 5px;
 }
 
-div.pulsanti>button.browser {
-    background-color: black;
-    color: #fbfbfb;
-}
+
 
 /* mainsite */
 main {
@@ -259,11 +240,6 @@ section.four .pulsanti{
     margin: 60px auto;
 }
 
-section.four button.download_mac {
-    background-color: #8EA1E1;
-    color: #FFFFFF;
-}
-
 /* /section4 */
 
 /* footer */
@@ -328,14 +304,46 @@ footer div.fondo {
 
 footer div.fondo button {
     position: absolute;
-    background-color: #8EA1E1;
-    color: #FFFFFF;
     right: 0;
     top: 25px;
 }
 
 /* /footer */
 
-/* animazioni */
 
+/* buttonremade */
+
+button.browser {
+    background-color: black;
+    color: #fbfbfb;
+}
+button.blueback {
+    background-color: #8EA1E1;
+    color: #FFFFFF;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border-style: none;
+}
+
+button.whiteback {
+    background-color: #FFFFFF;
+}
+
+button.whiteback a {
+    color: #23272A;
+}
+/* /buttonremade */
+
+
+/* animazioni */
+div.logo img:hover {
+    cursor: pointer;
+}
+
+button.whiteback:hover {
+    color: #7289DA;
+}
 /* /animazioni */
