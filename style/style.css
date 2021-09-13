@@ -255,3 +255,38 @@ section.four button.download_mac {
 }
 
 /* /section4 */
+
+/* footer */
+
+footer {
+    background-color: #23272A;
+}
+footer select#language {
+    background-color: #ffffff00;
+    border-style: none;
+    color: #FFFFFF;
+}
+
+footer div.vertical_container {
+    margin-top: 20px;
+}
+
+footer div.largo {
+    width: 33%;
+}
+
+footer div.stretto {
+    width: 16.5%;
+}
+
+
+/* debug */
+.debug .largo {
+    background-color: rgb(79, 172, 172);
+}
+
+.debug .stretto {
+    background-color: burlywood;
+    border:1px solid coral;
+}
+/* /debug */
