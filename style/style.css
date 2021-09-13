@@ -305,16 +305,26 @@ footer .social a {
     margin-left: 5px;
 }
 
-div.stretto {
-    font-weight: 400;
-}
-/* debug */
-.debug .largo {
-    background-color: rgb(79, 172, 172);
+footer div.stretto li {
+    font-size: 1rem;
+    margin-top: 0.8rem;
 }
 
-.debug .stretto {
-    background-color: burlywood;
-    border:1px solid coral;
+footer div.fondo {
+    border-top: 2px solid #48557D;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    margin-bottom: 60px;
 }
-/* /debug */
+
+footer div.fondo button {
+    position: absolute;
+    background-color: #8EA1E1;
+    color: #FFFFFF;
+    right: 0;
+    top: 15px;
+}
+
+/* /footer */
