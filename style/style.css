@@ -84,7 +84,7 @@ header>div.pulsante {
     position:relative;
 }
 
-header>div.accedi>button {
+header>div.accedi button {
     position: absolute;
     top: 50%;
     right: 0;
@@ -123,7 +123,7 @@ div.sopra p {
     margin-bottom: 1.2rem;
 }
 
-div.pulsanti>button {
+div.pulsanti button {
     height: 2.5rem;
     line-height: 2.5rem;
     vertical-align: middle;
