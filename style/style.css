@@ -21,7 +21,7 @@
 }
 
 section.sopra>.vertical_container {
-    height: 550px;
+    height: 490px;
     text-align: center;
 }
 
@@ -97,7 +97,7 @@ section.sopra {
 
 section.sopra {
     background-image: url(../img/jumbo.png);
-    height: 550px;
+    height: 490px;
     background-size: cover;
     background-repeat: no-repeat;
 } 
