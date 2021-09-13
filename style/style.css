@@ -109,6 +109,13 @@ button {
     border-style: none;
 }
 
+button.whiteback {
+    background-color: #FFFFFF;
+}
+
+button.whiteback a {
+    color: #23272A;
+}
 div.sopra {
     text-align: center;
     width: 65%;
@@ -314,7 +321,7 @@ footer div.fondo {
     border-top: 2px solid #48557D;
     margin-top: 20px;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 30px;
     position: relative;
     margin-bottom: 60px;
 }
@@ -324,7 +331,11 @@ footer div.fondo button {
     background-color: #8EA1E1;
     color: #FFFFFF;
     right: 0;
-    top: 15px;
+    top: 25px;
 }
 
 /* /footer */
+
+/* animazioni */
+
+/* /animazioni */
