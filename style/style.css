@@ -177,6 +177,11 @@ section p {
     line-height: 1.8rem;
     font-size: 1.2rem;
 }
+
+section.four div.text_block {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /* /mainsite */
 
 /* wave */
@@ -200,7 +205,7 @@ section.two img {
    margin-left: auto;
 }
 
-section.two {
+section.greyback {
     background-color: #F7F7F7;
 }
 
