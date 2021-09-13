@@ -366,3 +366,9 @@ a.link:hover {
     text-underline-offset: 3px;
 }
 /* /animazioni */
+
+/* stile_tendina_lingua */
+footer select-selected {
+    background-color: royalblue;
+}
+/* /stile_tendina_lingua */
