@@ -136,11 +136,11 @@ div.pulsanti>button {
     margin: 0 10px;
     font-weight: 400;
 }
-div.pulsanti>button.download {
+div.pulsanti>button.download_mac {
     background-color: #fbfbfb;
 }
 
-button.download .fas.fa-long-arrow-alt-down {
+button.download_mac .fas.fa-long-arrow-alt-down {
     margin-right: 5px;
 }
 
@@ -242,6 +242,16 @@ section.four div.sparkle_text>h3.starred {
 
 h3.starred {
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
+
+section.four .pulsanti{
+    margin: 60px auto;
+}
+
+section.four button.download_mac {
+    background-color: #8EA1E1;
+    color: #FFFFFF;
+}
+
 /* /section4 */
