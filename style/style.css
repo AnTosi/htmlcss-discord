@@ -70,6 +70,10 @@ header>nav li {
     height: 70px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+header>nav li a {
+    text-decoration: none;
     color: #fbfbfb;
 }
 
